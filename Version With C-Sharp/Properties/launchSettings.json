@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CodedOne": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

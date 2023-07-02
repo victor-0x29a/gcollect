@@ -1,33 +1,29 @@
-
 # GCollect
 
-Se você está buscando coletar cookies, bem-vindo! 
+If you are looking to collect cookies, welcome!
 
-
-#### - Navegadores disponíveis:
-- Brave 
+#### Available Browsers:
+- Brave
 - Opera
-- Chrome 
+- Chrome
 - Firefox
 - Edge
 
+#### Sends information to Discord WebHook:
+- Files with the cookies. Please note that Firefox separates cookies for each accessed website, so there will be multiple files.
+- In the Python version, it sends the IP address, amount of RAM, architecture, operating system, etc.
+- In the C# version, it sends the operating system, processor information, network username, logged-in user on the machine, and storage disks.
+- Both versions require running as an administrator.
 
-#### - Envia as informações ao WebHook do discord:
-- Arquivos com os cookies, vale lembrar que o navegador firefox separa os cookies de cada site acessado, assim vai mais arquivos!
-- Na versão feita em Python, envia o endereço IP, quantia de ram, arquitetura, sistema operacional, etc.
-- Na versão feita em C-Sharp, envia o sistema operacional, informações do processador, username na rede, usuário logado na máquina e discos de armazenamento.
-- Ambas versões pedem para executar como administrador.
-
-### Rate de detecção?
-A parte de ofuscação já é com o usuário, porém no Python, eu tentei ofuscar de diversas maneiras e não obtive resultados bons, já no C-Sharp, compilei para x64, passou no Virus Total e passou limpo, segue as taxas de rate:
+### Detection Rate?
+The obfuscation part is up to the user. However, in Python, I tried various obfuscation methods and didn't achieve good results. In C#, I compiled it for x64, passed Virus Total, and came out clean. Here are the detection rates:
 
 Python:
 - Black Veil + PyInstaller: 2/71
-- Outras ferramentas de ofuscação + PyInstaller: 12/71
+- Other obfuscation tools + PyInstaller: 12/71
 - Black Veil + Nuitka: 20/71
-- Outras ferramentas de ofuscação + Nuitka: 20/71
+- Other obfuscation tools + Nuitka: 20/71
 
 C#:
-- Nenhuma técnica x64: 0/71
-- Nenhuma técnica x86: 2/71
-
+- No technique x64: 0/71
+- No technique x86: 2/71
